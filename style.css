@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400:300;100;200;400;700;800;900&family=Roboto:wght@100;300;500;700;900&display=swap');
+
+
+*{ 
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    
+}
+.nav{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+
+.anchortags>a{ 
+    text-decoration: none;
+   color: #000000;
+   opacity: .7;
+  cursor: pointer;
+  padding-top: 20px;
+
+}
+.anchortags{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  width:75% 
+
+}
+
+.nav a:hover{ 
+    font-weight: 900;
+}
+.nav-items{ 
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+img.logo{ 
+cursor: pointer;
+width: 100px;    
+}
+@media screen and (max-width:1080px) { 
+img.logo{ 
+    padding-left: 40px;
+}
+    
+}
+.register{ 
+    border:solid #3bb0ff ;
+    padding:15px 30px;
+    border-radius: 10px;
+    color: #3bb0ff;
+    transition-duration: .4s;
+    background-color: #ffffff;
+}
+.register:hover{ 
+    background-color: #3bb0ff;
+    color:#ffffff;
+}
+.nav-items-home{ 
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+.servers{ 
+    display: flex;
+    height: auto;
+    padding-top:100px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.serverheading,.testerheading,.technicalsupportheading,.servicesheading>p{ 
+font-size: 50px;
+font-family: 'Roboto';
+font-weight: 500;
+width:75%;
+line-height: 60px;
+}
+.testerheading{ 
+    width:80%;
+
+}
+
+
+
+.serverheading{ 
+    /* right:40px; */
+}
+
+.serverleft >h6,.testerright >h6,.technicalsupportleft >h6,.servicesheading>h6{ 
+font-family: 'Roboto';
+font-weight: 100;
+font-size: 20px;
+width:75%;
+line-height: 30px;
+}
+.serverleft >h6{ 
+    position: relative;
+    /* right: 40px; */
+    margin-top: 40px;
+}
+.serverimage,.testerimage,.technicalsupportimage{ 
+   height:370px;
+   width:auto;
+}
+.technicalsupportleft{ 
+    padding-left: 100px;
+}
+
+.technicalsupportimage{ 
+    height: 450px;
+}
+
+.serverbutton,.testerbutton,.technicalsupportbutton{ 
+    margin-top:30px;
+    padding:15px 30px;
+    background: linear-gradient( 45deg,#61bbf8 40%, #3bb0ff 80%);
+    border:solid 1px;
+    color:#ffffff;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0 0  0 2px #3bb0ff,
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+     cursor: pointer;
+
+        }
+.serverbutton:hover,.testerbutton:hover,.technicalsupportbutton:hover{ 
+    font-weight: 900;
+        }       
+.tester{ 
+    display: flex;
+    margin-top: 150px;
+    padding: 0px 50px;
+}
+.testerright{ 
+    padding-left: 100px;
+}
+.testerheading{ 
+   
+    width: auto;
+}
+.technicalsupport{ 
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    padding: 0px 50px;
+}
+
+.technicalsupportheading{ 
+    width:75%;
+}
+
+.technicalsupportleft>h6{ 
+    padding-top:40px;
+}
+
+.servicesheading{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+
+}
+
+.servicesheading >p{ 
+    width:600px;
+    padding-left:40px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+
+}
+
+
+
+.unlimitedHosting>p,.cloudhosting>p,.wordpresshosting>p,.fastestvpn>p
+,.domain>p,.websitebuilder>p
+{ 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    opacity: .7;
+    padding-top: 20px;
+}
+ 
+.unlimitedHosting>p:hover,.cloudhosting>p:hover,.wordpresshosting>p:hover,.fastestvpn>p:hover
+,.domain>p:hover,.websitebuilder>p:hover{ 
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
+
+
+.servicesfirst3,.servicelast3{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+
+}
+.unlimitedHosting>h6,.cloudhosting>h6,.wordpresshosting>h6,.fastestvpn>h6
+,.domain>h6,.websitebuilder>h6{ 
+    font-family: 'Roboto';
+font-weight: 100;
+font-size: 15px;
+width:300px;
+line-height: 30px;
+padding-top: 40px;
+}
+.domain >img{ 
+ height: 50px;
+}
+.unlimitedHosting>img,.cloudhosting>img,.wordpresshosting>img,.fastestvpn>img
+,.websitebuilder>img{ 
+ height: 50px;
+ cursor: pointer;
+
+}
+
+.unlimitedHosting>p:hover,.cloudhosting>p:hover,.wordpresshosting>p:hover,.fastestvpn>p:hover
+,.domain>p:hover,.websitebuilder>p:hover{ 
+    font-weight: 900;
+     cursor: pointer; 
+}
+.flexibleandtransparantpricing{ 
+    
+    background: linear-gradient(#07a3f4 50%,
+    #045ee9 90%);
+    margin-top: 200px;
+    width: auto;
+    height: 100%;
+}
+.flexibleandtransparantpricing>p{ 
+    text-align: center;
+    padding: 40px ;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+.flexibleandtransparantpricingpack{ border:solid green;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+    
+}
+
+
+.starterpack,.popularpackages,.businesspackage{ 
+    border: solid #ffffff;
+    height:600px;
+    background-color: #ffffff;
+    width:300px;
+    padding-top:20px;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+.popularpackages{ 
+    padding: 0;
+}
+
+.popularpackagesheader{ 
+    background-color: #353535;
+     color:#ffffff;
+     
+   
+}
+.popularpackagesheader>h2{ 
+    padding-left:40px;
+    padding-top: 20px;
+}
+.popularpackagesheader>p{ 
+padding-left: 30px;
+padding-bottom: 10px;
+}
+
+.starterpack >h2,.popularpackagesheader >h2,.businesspackage>h2{ 
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.starterpack>p,.popularpackagesheader>p,.businesspackage>p{ 
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    opacity: .6;
+}
+
+.starterpack > ul,.businesspackage > ul,.popularpackages>ul{ 
+      margin-top:40px;    
+    list-style-type: none;
+    padding-left: 10px;
+    
+
+}
+
+.starterpack > ul >li::before,.popularpackages > ul >li::before,.businesspackage > ul >li::before{ 
+content: "\2713";
+position: relative;
+right:10px;
+border:Solid #21ea21;
+padding: 2px;
+border-radius: 100%;
+line-height: 40px;
+color: #21ea21;
+
+}
+
+.starterpack>h1,.popularpackages>h1,.businesspackage>h1{ 
+  
+    font-size: 25px;
+    font-weight: 500;
+}
+.popularpackages>h1{ 
+    top:70px;
+}
+
+.pricebelowcontent{ 
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 40px;
+    opacity: .5;
+}
+.starterpack >button,.popularpackages>button,.businesspackage>button{ 
+    border: solid;
+    position: relative;
+
+    left:30px;
+    padding:15px 30px;
+    color: #3bb0ff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #00000070;
+}
+.popularpackages>button{ 
+   
+}
+.starterpack >button:hover,.businesspackage >button:hover,.popularpackages >button:hover{ 
+    font-weight: 100;
+}
+
+
+.ourcustomerloveus{ 
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:40px;
+}
+.ourcustomerloveusheading{ 
+ 
+}
+.ourcustomerloveusheading>h1{ 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 45px;
+    width:75%
+}
+.ourcustomerloveusheading> p{ 
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+    opacity: .7;
+    width:50%;
+ 
+}
+.firsttworeview,.secondtworeview{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;    
+}
+
+.review{
+    padding:0px 50px;
+}
+
+.firstreview,.secondreview,.thirdreview,.fourthreview{ 
+width:75%;
+margin-left: 40px;
+    box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+               0 0  0 2px #ffffff,
+               0.3em 0.3em 1em rgba(0,0,0,0.3);
+               cursor: pointer;
+}
+.para{ 
+    padding-left:30px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    opacity: .7;
+}
+.firstreview,.secondreview,.thirdreview,.fourthreview{ 
+    padding-bottom: 20px;
+}
+.firstreview>h1,.secondreview>h1,.thirdreview>h1,.fourthreview>h1{ 
+    font-size: 20px;
+
+    top:15px;
+    width:90%;
+
+}
+.firstreview>h6,.secondreview>h6,.thirdreview>h6,.fourthreview>h6{ 
+  
+     top:5px;
+     width:50%;
+    }
+.firstreview>h1::before,.secondreview>h1::before,.thirdreview>h1::before,.fourthreview>h1::before{ 
+    content: " ";
+    border-radius: 50%;
+    position: relative;
+    padding: 13px 20px;
+    right: 8px;
+    top:10px;
+    background-color: #d0cac7;
+}
+.footer1{ 
+    margin-top: 200px;
+    background-image: url(footer-bg.svg);
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer1heading{ 
+    color:#ffffff;
+    position: relative;
+    top:60px;
+    width:600px;
+     font-size: 25px;
+      font-family: 'Montserrat';
+}
+.footer1heading>p{ 
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Montserrat';
+}
+.footer1register{ 
+    display: inline-block;
+    height:40px;
+    position: relative;
+    top:120px;
+    border:solid #3bb0ff ;
+    padding:10px 30px;
+    border-radius: 10px;
+    color: #3bb0ff;
+    transition-duration: .2s;
+    background-color: #ffffff;
+}
+
+.footer1register:hover{ 
+    background-color: #3bb0ff;
+    color:#ffffff;
+}
+
+.footer{ 
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.leftfooter >p{ 
+    width:200px;
+    padding-top: 20px;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    opacity: .6;
+    line-height: 25px;
+}
+.leftfooter>img{ 
+    height:30px
+}
+.menu>h1{ 
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.menu>ul>li,.Links>ul>li,.overview>ul>li{ 
+    list-style-type: none;
+    line-height: 5px;
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    opacity: .6;
+
+}
+.socialmediaicons{ 
+    position: relative;
+    top:40px;
+}
+
+@media screen and (max-width:1080px){ 
+.technicalsupport,.tester,.servers{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}  
+
+.technicalsupportright,.testerright,.serverright{ 
+    margin-top: 50px;
+}
+ .hero{ 
+    margin-top: 100px;
+ }   
+}
+
+
+@media screen and (max-width:720px){
+    .flexibleandtransparantpricingpack{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        height: 100%;
+    }
+.firsttworeview,.{
+    display: flex;
+    flex-direction: column;
+}    
+ 
+}
